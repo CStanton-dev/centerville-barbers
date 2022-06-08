@@ -1,4 +1,4 @@
-![Logo](centerville-barbers/public)
+![Logo](public/centerville-barbers-logo.png)
 
 # Centerville Barbers
 
