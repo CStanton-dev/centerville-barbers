@@ -4,7 +4,7 @@ import styles from './styles/navbar.module.css';
 
 export default function Navbar() {
   return (
-    <nav role='navigation' className={styles.Navbar} aria-label='Main'>
+    <nav role='navigation' className={styles.Navbar} aria-label='navigation'>
         <Link href='/' passHref>
           <a className={styles.NavLink}>
             <Image

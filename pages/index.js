@@ -16,13 +16,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Centerville Barbers
         </h1>
-
         <p className={styles.description}>A high quality barbershop for the highest quality of customers.</p>
       </main>
-
-      <footer className={styles.footer}>
-          &copy;{' '}Centerville Barbers, SP.
-      </footer>
     </Layout>
   )
 }

@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navbar from './navbar';
+import Footer from './footer';
 import styles from './styles/layout.module.css';
 
 const name ='Carter Stanton'
@@ -11,16 +12,18 @@ export default function Layout({ children, Home }) {
       <Head>
         <link rel='icon' href='/favicon.ico' />
         <meta name='author' content={name} />
-        <meta name='description' content='Reserve a room at the Cosmic Hotel now!' />
+        <meta name='description' content='Centerville Barbers, a barbershop located in the heart of Centerville. Schedule an appointment and stop by today!' />
         <meta
           property="og:image"
           content='/centerville-barbers-logo.png'
         />
         <meta name='og:title' content={siteTitle} />
-        <meta name='twitter:card' content='cosmic-reservations-full.svg' />
+        <meta name='twitter:card' content='centerville-barbers-logo.png' />
       </Head>
       <Navbar/>
-      {Home ? (<main role='main' className={styles.home}>{children}</main>) : (<main role='main' className={styles.pages}>{children}</main>)}
+      {Home ? (<main role='main' className={styles.home}>{children}</main>) : 
+              (<main role='main' className={styles.pages}>{children}</main>)}
+      <Footer />
     </div>  
   )
 }
