@@ -16,7 +16,7 @@ export default function Pricing() {
   return (
     <Layout>
       <Head>
-        <title>Pricing</title>
+        <title>Centerville Barbers | Pricing</title>
       </Head>
       <h1 className={styles.title}>Pricing</h1>
       <p className={styles.description}>Here is a pricing list of our haircuts, beard trims, and more.</p>
