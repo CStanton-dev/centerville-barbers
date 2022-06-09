@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout Home>
       <Head>
         <title>Centerville Barbers</title>
         <meta name="description" content="Centerville Barbers, a barbershop located in the heart of Centerville. Schedule an appointment and stop by today!" />

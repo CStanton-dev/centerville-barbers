@@ -1,0 +1,30 @@
+.disabled {
+  color: #FFF;
+  background-color: rgba(0, 137, 252, 0.5);
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 0;
+}
+
+.schedule {
+  color: #FFF;
+  background-color: #0089fc;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.schedule:hover,
+.schedule:focus {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+  transition: color 0.15s ease, box-shadow 0.15s ease;
+  color: #FFF;
+  border-color: #0089fc;
+}
+
+.schedule:active {
+  box-shadow: none;
+}
