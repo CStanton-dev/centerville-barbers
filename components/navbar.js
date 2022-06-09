@@ -20,6 +20,11 @@ export default function Navbar() {
           Home
         </a>
       </Link>
+      <Link href='/pricing' passHref>
+        <a className={styles.NavLink}>
+          Pricing
+        </a>
+      </Link>
     </nav>
   )
 }
