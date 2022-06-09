@@ -5,7 +5,7 @@ import styles from './styles/layout.module.css';
 const name ='Carter Stanton'
 export const siteTitle = 'Centerville Barbers'
 
-export default function Layout({ children }) {
+export default function Layout({ children, Home }) {
   return (
     <div>
       <Head>
@@ -20,7 +20,7 @@ export default function Layout({ children }) {
         <meta name='twitter:card' content='cosmic-reservations-full.svg' />
       </Head>
       <Navbar/>
-      <main>{children}</main>
+      {Home ? (<main role='main' className={styles.home}>{children}</main>) : (<main role='main' className={styles.pages}>{children}</main>)}
     </div>  
   )
 }
