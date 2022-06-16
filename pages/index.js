@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Layout from '../components/layout'
-import IsOpen from '../lib/is-open'
+import IsOpen from '../components/isOpen'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
