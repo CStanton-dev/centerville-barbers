@@ -1,3 +1,5 @@
+import styles from './styles/isOpen.module.css'
+
 export default function IsOpen() {
   const date = new Date()
   const options = {
@@ -33,21 +35,29 @@ export default function IsOpen() {
   const weekdayHoursRange = (8 <= getTimeStamp.hour <=  18);
   const saturdayHoursRange = (8 <= getTimeStamp.hour <= 16);
 
+  /** Style Constant */
+  let style = styles.closed;
+
   if (sunday && sundayHoursRange && minuteRange) {
+    style = styles.open;
     status = 'open';
   } else if (monday && mondayHoursRange && minuteRange) {
+    style = styles.open;
     status = 'open';
   } else if ((tuesday || wednesday || thursday || friday) && weekdayHoursRange && minuteRange) {
+    style = styles.open;
     status = 'open';
   } else if (saturday && saturdayHoursRange && minuteRange) {
+    style = styles.open;
     status = 'open';
   } else {
+    style = styles.closed;
     status = 'closed';
   }
   
   return (
-    <div>
-      <p id='time'>It is {now} we are {status}!</p>
+    <div >
+      <p>It is {now} we are <span id='time' className={style}>{status}</span>!</p>
     </div>
   )
 }
