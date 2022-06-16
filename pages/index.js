@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Layout from '../components/layout'
+import IsOpen from '../components/isOpen'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -23,6 +23,7 @@ export default function Home() {
           Centerville Barbers
         </h1>
         <p className={styles.description}>A high quality barbershop for the highest quality of customers.</p>
+        <IsOpen />
       </main>
     </Layout>
   )

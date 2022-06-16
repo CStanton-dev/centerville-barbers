@@ -14,6 +14,7 @@
   align-items: center;
   padding: 0.5rem;
   margin-right: 1rem;
+  cursor: pointer;
   fill: #6f6f6f;
   color: #6f6f6f;
 }
