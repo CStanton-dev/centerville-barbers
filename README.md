@@ -7,7 +7,6 @@ Centerville Barbers, a barbershop located in the heart of Centerville. Schedule 
 ## Features
 
 - Haircut Booking Widget
-- Light/dark mode toggle
 - Cross platform
 
 ## Support
