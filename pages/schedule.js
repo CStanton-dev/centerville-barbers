@@ -14,7 +14,15 @@ export default function Schedule() {
 
 			<div class="container scheduleContainer">
         <div class="d-flex justify-content-center">
-					<iframe class="embed-responsive-item" src="https://centervillebarbers.resurva.com/book?embedded=true" name="resurva-frame" frameborder="0" width="450" height="450" style={{maxWidth: '450px', maxHeight: '450px',}}></iframe>
+					<iframe
+            class="embed-responsive-item"
+            src="https://centervillebarbers.resurva.com/book?embedded=true"
+            name="resurva-frame"
+            frameborder="0"
+            width="450"
+            height="450"
+            style={{maxWidth: '450px', maxHeight: '450px',}}
+          ></iframe>
 				</div>
       </div>  
     </Layout>
