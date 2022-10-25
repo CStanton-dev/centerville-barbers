@@ -5,12 +5,16 @@
   padding: 0.5rem;
   border-radius: 5px;
   border: 0;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 .schedule {
   color: #FFF;
   background-color: #0089fc;
   width: 100%;
+  display: block;
+  text-align: center;
   padding: 0.5rem;
   border-radius: 5px;
   border: 0;

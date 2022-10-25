@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './styles/scheduleButton.module.css';
 
 export default function ScheduleButton(props) {
@@ -7,7 +8,12 @@ export default function ScheduleButton(props) {
   if (status == 'unavailable') {
     button = <button className={styles.disabled} disabled>Unavailable</button>
   } else {
-    button = <button className={styles.schedule}>Schedule</button>
+    button = 
+      <Link href='/schedule' passHref>
+        <a className={styles.schedule}>
+          Schedule
+        </a>
+      </Link>
   }
 
   return (button)
