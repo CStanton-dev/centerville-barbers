@@ -31,6 +31,11 @@ export default function Navbar() {
           Pricing
         </a>
       </Link>
+      <Link href='/schedule' passHref>
+        <a className={styles.NavLink}>
+          Schedule
+        </a>
+      </Link>
       <a onClick={() => setShow(true)} className={styles.NavLink} role='button'>Hours</a>
       <Modal title="Hours of Operation" onClose={() => setShow(false)} show={show}>
         <BusinessHours />
