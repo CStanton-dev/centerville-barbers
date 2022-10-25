@@ -6,3 +6,9 @@
 .description {
   margin-top: 0;
 }
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

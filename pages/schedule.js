@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Layout from '../components/layout'
-import styles from '../styles/Schedule.module.css'
+import Head from "next/head";
+import Layout from "../components/layout";
+import styles from "../styles/Schedule.module.css";
 
 export default function Schedule() {
   return (
@@ -8,23 +8,18 @@ export default function Schedule() {
       <Head>
         <title>Centerville Barbers | Schedule</title>
       </Head>
-
       <h1 className={styles.title}>Schedule</h1>
-      <p className={styles.description}>Here you can schedule a haircut with us</p>
-
-			<div class="container scheduleContainer">
-        <div class="d-flex justify-content-center">
-					<iframe
-            class="embed-responsive-item"
-            src="https://centervillebarbers.resurva.com/book?embedded=true"
-            name="resurva-frame"
-            frameborder="0"
-            width="450"
-            height="450"
-            style={{maxWidth: '450px', maxHeight: '450px',}}
-          ></iframe>
-				</div>
-      </div>  
+      <p className={styles.description}>Schedule your haircut appointment today!</p>
+      <div className={styles.wrapper}>
+        <iframe 
+          src="https://centervillebarbers.resurva.com/book?embedded=true"
+          name="resurva-frame"
+          style={{maxWidth: 450 + 'px', maxHeight: 450 + 'px'}}
+          width="450"
+          height="450"
+          frameBorder="0">
+        </iframe>
+      </div>
     </Layout>
   )
 }

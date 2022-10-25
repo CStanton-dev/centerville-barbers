@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import IsOpen from '../components/isOpen'
 import styles from '../styles/Home.module.css'
+import ScheduleButton from '../components/scheduleButton'
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
         </h1>
         <p className={styles.description}>A high quality barbershop for the highest quality of customers.</p>
         <IsOpen />
+        <div className={styles.wrapper}>
+          <ScheduleButton />
+        </div>
       </main>
     </Layout>
   )

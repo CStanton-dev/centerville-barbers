@@ -40,6 +40,11 @@ export default function Navbar() {
       <Modal title="Hours of Operation" onClose={() => setShow(false)} show={show}>
         <BusinessHours />
       </Modal>
+      <Link href='/schedule' passHref>
+        <a className={styles.NavLink}>
+          Schedule
+        </a>
+      </Link>
     </nav>
   )
 }
