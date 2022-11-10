@@ -10,7 +10,7 @@ export default function Navbar() {
   const [show, setShow] = useState(false)
 
   return (
-    <nav role='navigation' className='navbar navbar-expand-lg sticky-top bg-light' aria-label='navigation'>
+    <nav role='navigation' className='navbar navbar-expand-lg sticky-top' style={{backgroundColor: "#e2e2e2"}} aria-label='navigation'>
       <div className="container-fluid">
         <Link href='/' passHref>
           <a className={styles.NavLink}>
