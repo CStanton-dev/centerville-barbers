@@ -18,8 +18,8 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-
-      <main className={styles.main}>
+      <main className={`${styles.main} row`}>
+        <div className='col-md-12 justify-content-center align-items-center d-flex flex-column'>
         <h1 className={styles.title}>
           Centerville Barbers
         </h1>
@@ -27,6 +27,7 @@ export default function Home() {
         <IsOpen />
         <div className={styles.wrapper}>
           <ScheduleButton />
+        </div>
         </div>
       </main>
     </Layout>
