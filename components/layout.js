@@ -19,6 +19,7 @@ export default function Layout({ children, Home }) {
         />
         <meta name='og:title' content={siteTitle} />
         <meta name='twitter:card' content='centerville-barbers-logo.png' />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Navbar/>
       {Home ? (<main role='main' className={styles.home}>{children}</main>) : 

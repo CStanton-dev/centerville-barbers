@@ -18,11 +18,15 @@ export default function Pricing() {
       <Head>
         <title>Centerville Barbers | Pricing</title>
       </Head>
-      <h1 className={styles.title}>Pricing</h1>
-      <p className={styles.description}>Here is a pricing list of our haircuts, beard trims, and more.</p>
-      <section className={styles.grid}>
-        <PricingCard items={pricedItems}/>
-      </section>
+      <div className='row'>
+        <div className='col-md-12 justify-content-center align-items-center d-flex flex-column'>
+          <h1 className={styles.title}>Pricing</h1>
+          <p className={styles.description}>Here is a pricing list of our haircuts, beard trims, and more.</p>
+          <section className={styles.grid}>
+            <PricingCard items={pricedItems}/>
+          </section>
+        </div>
+      </div>
     </Layout>
   )
 }

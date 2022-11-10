@@ -17,10 +17,9 @@ export default function Home() {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-
-      <main className={styles.main}>
+      <main className={`${styles.main} row`}>
+        <div className='col-md-12 justify-content-center align-items-center d-flex flex-column'>
         <h1 className={styles.title}>
           Centerville Barbers
         </h1>
@@ -28,6 +27,7 @@ export default function Home() {
         <IsOpen />
         <div className={styles.wrapper}>
           <ScheduleButton />
+        </div>
         </div>
       </main>
     </Layout>
