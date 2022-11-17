@@ -15,7 +15,7 @@ export default function Navbar() {
         <Link href='/' passHref>
           <a className={styles.NavLink}>
             <Image
-              src="/centerville-barbers-logo.png"
+              src={"/centerville-barbers-logo.png"}
               height={53}
               width={200}
               alt="Centerville Barbers"
