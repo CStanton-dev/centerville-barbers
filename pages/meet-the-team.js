@@ -8,6 +8,7 @@ export default function MeetTheTeam() {
     <Layout>
       <Head>
         <title>Centerville Barbers | Meet The Team</title>
+				<meta name='description' content='Meet the team of barbers who will make you look your best!' />
       </Head>
       <div className='row'>
         <div className='col-md-12 justify-content-center align-items-center d-flex flex-column'>

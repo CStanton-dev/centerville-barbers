@@ -17,6 +17,7 @@ export default function Pricing() {
     <Layout>
       <Head>
         <title>Centerville Barbers | Pricing</title>
+        <meta name='description' content='Check out our prices for haircuts and more!' />
       </Head>
       <div className='row'>
         <div className='col-md-12 justify-content-center align-items-center d-flex flex-column'>

@@ -7,6 +7,7 @@ export default function Schedule() {
     <Layout>
       <Head>
         <title>Centerville Barbers | Schedule</title>
+        <meta name='description' content='Quickly schedule your appointment with us today!' />
       </Head>
       <div className='row no-gutters'>
         <div className='col-md-12 justify-content-center align-items-center d-flex flex-column'>
