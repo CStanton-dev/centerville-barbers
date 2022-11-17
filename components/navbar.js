@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { useState } from 'react';
 import BusinessHours from './businessHours';
 import Modal from './modal';
-import logo from "../public/centerville-barbers-logo.png"
 import styles from './styles/navbar.module.css';
 
 
@@ -16,7 +15,7 @@ export default function Navbar() {
         <Link href='/' passHref>
           <a className={styles.NavLink}>
             <Image
-              src={logo}
+              src={"/centerville-barbers-logo.png"}
               height={53}
               width={200}
               alt="Centerville Barbers"
