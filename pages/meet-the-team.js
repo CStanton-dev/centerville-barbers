@@ -18,7 +18,7 @@ export default function MeetTheTeam() {
 				<div className="row featurette" style={{textAlign: 'right'}}>
 					<div className="col-md-7">
 						<h2 className="featurette-heading">Tim Minton</h2>
-						<p className="lead">Tim has owned Centerville Barbers since September of 2010. He has been cutting hair for x years, and loves cutting hair for a living. Tim is a family man, and on occasion, you'll see one of his kids in the barbershop.</p>
+						<p className="lead">Tim has owned Centerville Barbers since September of 2010. He has been cutting hair for x years, and loves cutting hair for a living. Tim is a family man, and on occasion, you&apos;ll see one of his kids in the barbershop.</p>
 						<ul className="list-unstyled lead">Tim is here:
 							<li>Tuesdays   - 8:00 AM to 7:00 PM</li>
 							<li>Wednesdays - 8:00 AM to 7:00 PM</li>
