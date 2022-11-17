@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import IsOpen from '../components/isOpen'
 import styles from '../styles/Home.module.css'
 import ScheduleButton from '../components/scheduleButton'
-import StructedData from '../components/structuredData'
+
 
 export default function Home() {
   const structuredData = {
@@ -40,7 +40,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <StructedData data={structuredData}/>
+
       <main className={`${styles.main} row`}>
         <div className='col-md-12 justify-content-center align-items-center d-flex flex-column'>
         <h1 className={styles.title}>
