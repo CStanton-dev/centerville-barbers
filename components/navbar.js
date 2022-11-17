@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Modal from './modal';
 import { useState } from 'react';
-import styles from './styles/navbar.module.css';
 import BusinessHours from './businessHours';
+import Modal from './modal';
+import logo from "../public/centerville-barbers-logo.png"
+import styles from './styles/navbar.module.css';
 
 
 export default function Navbar() {
@@ -14,18 +15,12 @@ export default function Navbar() {
       <div className="container-fluid">
         <Link href='/' passHref>
           <a className={styles.NavLink}>
-            <img
-              src='../public/centerville-barbers-logo.png'
-              alt='Centerville Barbers'
-              height='53'
-              width='200'
-            />
-            {/* <Image
-              src="/centerville-barbers-logo.png"
+            <Image
+              src={logo}
               height={53}
               width={200}
               alt="Centerville Barbers"
-            /> */}
+            />
           </a>
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation">

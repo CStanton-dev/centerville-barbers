@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import logoMark from '../public/centerville-barbers-logomark.png'
 import styles from './styles/footer.module.css';
 
 export default function Footer() {
@@ -7,7 +8,7 @@ export default function Footer() {
     <footer role='footer' className={styles.footer}>
       <div className={styles.copyright}>
         <Image
-          src='/centerville-barbers-logomark.png'
+          src={logoMark}
           width={24}
           height={24}
           alt='Logomark'
