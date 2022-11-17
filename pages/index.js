@@ -6,27 +6,6 @@ import ScheduleButton from '../components/scheduleButton'
 
 
 export default function Home() {
-  const structuredData = {
-    "@context": "http://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Centerville Barbers",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "62 W Franklin St",
-      "addressLocality": "Centerville",
-      "addressRegion": "OH",
-      "postalCode": "45459",
-      "addressContry": "US"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 39.627960477520595,
-      "longitude": -84.16481648562284
-    },
-    "telephone" : "+19372605103",
-    "url": "https://centervillebarbers.net"
-  }
-
   return (
     <Layout Home>
       <Head>
