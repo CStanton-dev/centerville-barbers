@@ -21,4 +21,4 @@ If you have any feedback, please reach out to us at contact@centervillebarbers.n
 
 This website is the soul copyright of Centerville Barbers and its owner Tim Minton.
 
-Please see our ![http://centervillebarbers.net/privacy](Privacy Policy) for more information.
+Please see our ![https://centervillebarbers.net/privacy-policy](Privacy Policy) for more information.
