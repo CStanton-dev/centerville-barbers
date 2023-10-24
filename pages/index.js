@@ -48,7 +48,7 @@ export default function Home() {
           Centerville Barbers
         </h1>
         <p className={styles.description}>A high quality barbershop for the highest quality of customers.</p>
-        <p className={styles.description}>Find us at 62 W Franklin St, Centerville, OH 45459</p>
+        <p className={styles.description}>Find us at 162 W Franklin St, Centerville, OH 45459</p>
         <IsOpen />
         <div className={styles.wrapper}>
           <ScheduleButton />
